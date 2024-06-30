@@ -4,13 +4,14 @@ public class Question1 {
     public static void main(String[] args) {
 
         int x = 2;
-        System.out.print(" \n The binary string version of 2 is " + Integer.toBinaryString(x));
+        System.out.println("The binary string version when x = 2 is " + Integer.toBinaryString(x));
 
         x = x << 1;
+        System.out.println("When shifted left by 1, x = "+ x);
 
         // The decimal value is 4.0 and binary string is 100.
-        System.out.print(" \n When shifted left by 1 the decimal form of that number is " + Double.valueOf(x));
-        System.out.print(" \n When shifted left by 1 the binary notation is " + Integer.toBinaryString(x));
+        System.out.println("The decimal form of x is " + Double.valueOf(x) + " and The binary notation is " + Integer.toBinaryString(x));
+
 
 
 
